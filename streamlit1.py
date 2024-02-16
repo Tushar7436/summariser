@@ -57,7 +57,6 @@ pdf_path = 'trail.pdf'
 # Keywords to search for in the PDF
 keywords = ['technology', 'security']
 
-# Extracting important sentences from the PDF based on keywords
 important_sentences = extract_important_sentences_from_pdf(pdf_path, keywords)
 
 # Printing the important sentences
